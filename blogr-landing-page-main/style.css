@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:  sans-serif;
+    font-size: 16px;
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(13, 100%, 72%);
+    color:  hsl(0, 0%, 100%);
+    height: 400px;
+    border-bottom-left-radius: 100px;
+
+}
+.blog{
+    left: 300px;
+}
+
+
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    left: 800px;
+}
+.header h1{
+    padding: 20px;
+    position: relative;
+
+  font-family: "Overpass", sans-serif;
+
+
+}
+.header p:hover h1:hover {
+    cursor: pointer;
+    
+}
+
+.flex1 p{
+    padding: 20px;
+    position: relative;
+    right: 200px;
+    left: 50px;
+    
+}
+
+.flex2 p{
+    padding: 20px;
+}
+.flex2 button{
+    border-style: none;
+    font-family:"Ubuntu", sans-serif; 
+    font-size: 16px;
+    color: hsl(353, 100%, 62%);
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 20px;
+    width: 100px;
+    padding: 0px;
+
+}
+
+
+.jumbotron{
+    
+        position: relative;
+        top: 150px;
+        right: 500px;
+        padding: 30px;
+    
+}
+.jumbotron h1{
+    font-size: 3rem;
+
+  font-family: "Overpass", sans-serif;
+
+
+}
+.jumbotron p{
+    padding: 10px;
+    position: relative;
+    left:150px;
+    font-size: 16px;
+}
+.jumbotron .btn1{
+    position: relative;
+    left: 230px;
+    padding: 12px;
+    border-style: none;
+    border-radius: 20px;
+    color: hsl(353, 100%, 62%);
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.jumbotron .btn2{
+    position: relative;
+    left: 230px;
+    padding: 11px;
+    border-style: none;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(13, 100%, 72%);
+    border: 1px solid white;
+    font-family: "Ubuntu", sans-serif;
+
+
+
+}
+
+.center{
+    
+    font-family: "Overpass", sans-serif;
+
+}
+.flexinside{
+    display: flex;
+    justify-content: space-around;
+    
+
+} 
+.head{
+    text-align: center;
+    position:relative;
+    top: 50px;
+    color: hsl(237, 23%, 32%);
+}
+.article{
+    margin: 200px;
+}
+.article p {
+    word-spacing: 5px;
+    margin-bottom: 100px;
+    color: hsl(237, 17%, 21%);
+}
+.article h2{
+    color: hsl(237, 23%, 32%);
+    margin-bottom: 20px;
+}
+
+
+.center2 {
+    display:flex;
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(237, 17%, 21%);
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    height: 400px;
+
+
+}
+.center2 .background{
+    padding: 150px;
+    padding-right: 500px;
+}
+.background p{
+    word-spacing: 5px;
+    color: hsl(0, 0%, 100%);
+}
+.background h1{
+    margin-bottom:25px;
+    color: hwb(237 25% 61%);
+    color: hsl(0, 0%, 100%);
+}
+
+.center3{
+    margin-top: 100px;
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.article2{
+    padding: 150px;
+    padding-right: 200px;
+}
+.one h2{
+    color: hsl(237, 23%, 32%);
+    margin-bottom: 15px;
+}
+.two h2{
+    margin-bottom: 15px;
+    color: hsl(237, 23%, 32%);
+}
+.one p{ 
+    word-spacing: 10px;
+    margin-bottom: 70px;
+    color: hsl(237, 17%, 21%);
+    
+}
+.two p{
+    word-spacing: 10px;
+    color: hsl(237, 17%, 21%);
+}
+.footer{
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(240, 10%, 16%);
+    border-top-right-radius: 80px;
+    height: 350px;
+    
+}
+.footer p{
+    font-size: 15px;
+    padding: 10px;
+    color:hsl(240, 2%, 79%);
+    
+}
+.footer h4{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer h1{
+    margin-top: 40px;
+}
+.footer h4{
+    
+        position: relative;
+        left: 10px;
+    
+}
