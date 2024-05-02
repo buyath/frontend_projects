@@ -19,7 +19,7 @@ body{
     background-color: hsl(0,0%,100%);
     width: 360px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 3px 3px;
 
 }
 .container img {
