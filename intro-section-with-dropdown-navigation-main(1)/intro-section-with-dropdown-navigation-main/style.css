@@ -57,6 +57,7 @@ body{
    margin-right: 600px;
    word-spacing: 10px;
    color: hsl(0, 0%, 41%);
+   line-height: 1.5;
 
 }
 .main h1 {
