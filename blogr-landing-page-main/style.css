@@ -243,3 +243,35 @@ body{
         left: 10px;
     
 }
+@media screen and (max-width:500px){
+    .head{
+        text-align: center;
+    }
+   .flexinside{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .imag2{
+    height: 200px;
+    width: 200px;
+   }
+   .article {
+    width: 350px;
+    position: relative;
+    left: 20px;
+    
+   }
+}
+
+@media screen and (max-width:500px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+
+    }
+
+    
+}
