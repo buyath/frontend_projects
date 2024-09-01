@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 250px;
+    margin-top: 250px;
     font-size: 14px;
     background-color: hsl(0, 0%, 8%);
 
